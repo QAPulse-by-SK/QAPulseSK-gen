@@ -1,0 +1,57 @@
+{
+  "name": "qapulsesk-gen",
+  "version": "1.0.0",
+  "description": "All-in-one test generator for Playwright & Cypress — from HAR files, recordings, or plain English. AI-enhanced, free by default. By QAPulse by SK.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "qapulsesk-gen": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build",
+    "gen": "node dist/cli/index.js"
+  },
+  "keywords": [
+    "qapulse",
+    "test-generator",
+    "playwright-generator",
+    "cypress-generator",
+    "har-to-test",
+    "ai-testing",
+    "test-automation",
+    "qa",
+    "codegen"
+  ],
+  "author": "QAPulse by SK <contact@skakarh.com> (https://skakarh.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QAPulse-by-SK/QAPulseSK-gen.git"
+  },
+  "homepage": "https://skakarh.com",
+  "bugs": {
+    "url": "https://github.com/QAPulse-by-SK/QAPulseSK-gen/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}

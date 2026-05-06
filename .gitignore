@@ -1,0 +1,7 @@
+node_modules/
+dist/
+qapulsesk-tests/
+coverage/
+.env
+.env.local
+*.log
