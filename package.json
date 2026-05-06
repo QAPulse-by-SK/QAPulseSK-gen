@@ -1,6 +1,6 @@
 {
   "name": "qapulsesk-gen",
-  "version": "1.0.0",
+  "version":1.0.1",
   "description": "All-in-one test generator for Playwright & Cypress — from HAR files, recordings, or plain English. AI-enhanced, free by default. By QAPulse by SK.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
