@@ -1,0 +1,1 @@
+{"version":3,"file":"playwright.d.ts","sourceRoot":"","sources":["../../src/generators/playwright.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,gBAAgB,EAAE,aAAa,EAAE,aAAa,EAAE,MAAM,eAAe,CAAC;AAiKzF,wBAAgB,uBAAuB,CACrC,KAAK,EAAE,QAAQ,EAAE,EACjB,QAAQ,EAAE,MAAM,EAChB,MAAM,EAAE,gBAAgB,GACvB;IAAE,KAAK,EAAE,aAAa,EAAE,CAAC;IAAC,QAAQ,CAAC,EAAE,aAAa,EAAE,CAAA;CAAE,CAoCxD"}

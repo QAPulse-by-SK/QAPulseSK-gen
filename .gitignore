@@ -1,5 +1,4 @@
 node_modules/
-dist/
 qapulsesk-tests/
 coverage/
 .env
